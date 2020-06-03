@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link href="/css/roboto.css" rel="stylesheet" />
+    <link href="/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="/css/vuetify.min.css" rel="stylesheet" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+</head>
+
+<body>
+    <div id="app">
+        <v-app>
+
+        </v-app>
+    </div>
+
+    <script src="/js/vue.js"></script>
+    <script src="/js/vuetify.js"></script>
+    <script>
+        var vue = new Vue({
+            el: "#app",
+            vuetify: new Vuetify({
+                theme: {
+                    dark: true
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
